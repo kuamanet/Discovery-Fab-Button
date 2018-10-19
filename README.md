@@ -70,6 +70,7 @@ init(buttonColor:UIColor, buttonIcon:UIImage, discoveryColor:UIColor, menu:[Menu
 ```
 
 ## Changing props
+
 ```swift
 let v = DiscoveryFabButtonView()
 
@@ -83,7 +84,7 @@ v.menuItemsColor = #colorLiteral(red: 0.4901960784, green: 0.4784313725, blue: 0
 
 ```
 
-## Menu Item
+## MenuItem
 A menu item have a `label` and an `id`, both `String`. The `id` label is not required, but can be provided.
 
 ```swift
@@ -91,7 +92,7 @@ let menuItem = MenuItem(label: "Awesome label")
 let menuItem = MenuItem(id: "somethingUnique", label: "Awesome label")
 ```
 
-## Public methods
+## Public Methods
 
 ### `inTableView`
 Will append the button directly to the window. It's up to you the removal, meaning that if you call `inTableView` inside a controller and then allow the user to navigate to another controller, the button will still be visible if you don't `remove` it inside the controller's `viewWillDisappear`.
