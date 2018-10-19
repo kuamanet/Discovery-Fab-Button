@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DiscoveryFabButton"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Fab button with menu and circle reveal animation."
 
   # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Also a nice animated circle will overlay your UI when the fab is clicked
                    DESC
 
   s.homepage     = "https://github.com/kuamanet/Discovery-Fab-Button"
-  # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
+  s.screenshots  = "https://raw.githubusercontent.com/kuamanet/Discovery-Fab-Button/master/previews/simple.gif", "https://raw.githubusercontent.com/kuamanet/Discovery-Fab-Button/master/previews/tableview.gif", "https://raw.githubusercontent.com/kuamanet/Discovery-Fab-Button/master/previews/customizations.gif", "https://raw.githubusercontent.com/kuamanet/Discovery-Fab-Button/master/previews/delegates.gif"
 
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -10,14 +10,14 @@ import UIKit
 import SnapKit
 
 // MARK: - DiscoveryFabButton Protocol
-public protocol DiscoveryFabButtonViewProtocol {
+public protocol DiscoveryFabButtonViewDelegate {
     func onOpen()
     func onClose()
     func onMenuItemSelected(menuItem: MenuItem, index: Int)
     func onMenuItemUnselected(menuItem: MenuItem, index: Int)
 }
 
-extension DiscoveryFabButtonViewProtocol {
+extension DiscoveryFabButtonViewDelegate {
     func onOpen() {}
     
     func onClose() {}
@@ -38,7 +38,7 @@ public class DiscoveryFabButtonView : UIView {
     private var isOpened = false
     private var isAnimating = false
     
-    public var delegate:DiscoveryFabButtonViewProtocol?
+    public var delegate:DiscoveryFabButtonViewDelegate?
     
     private static let windowBounds = UIScreen.main.bounds
     
