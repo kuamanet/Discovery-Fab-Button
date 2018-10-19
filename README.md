@@ -147,3 +147,7 @@ v.delegate = self
 - `func onClose()` [optional]
 - `func onMenuItemSelected(menuItem: MenuItem, index: Int)` [required]
 - `func onMenuItemUnselected(menuItem: MenuItem, index: Int)` [optional]
+
+
+## Special thanks
+To [Roberto Gadotti](http://www.robertogadotti.it/), that came up with the graphic and interaction idea
