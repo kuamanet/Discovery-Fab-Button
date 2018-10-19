@@ -3,7 +3,7 @@
 //  DiscoveryFabButton
 //
 //  Created by Daniele De Matteo on 16/10/18.
-//  Copyright © 2018 Schüco. All rights reserved.
+//  Copyright © 2018 Kuama. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

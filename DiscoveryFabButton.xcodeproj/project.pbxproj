@@ -125,7 +125,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1000;
-				ORGANIZATIONNAME = "Schüco";
+				ORGANIZATIONNAME = Kuama;
 				TargetAttributes = {
 					00D467692176136600A5B3D1 = {
 						CreatedOnToolsVersion = 10.0;

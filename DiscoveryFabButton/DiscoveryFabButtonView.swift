@@ -3,7 +3,7 @@
 //  DiscoveryFabButton
 //
 //  Created by Daniele De Matteo on 16/10/18.
-//  Copyright © 2018 Schüco. All rights reserved.
+//  Copyright © 2018 Kuama. All rights reserved.
 //
 
 import UIKit
@@ -26,7 +26,6 @@ extension DiscoveryFabButtonViewProtocol {
 }
 
 
-// https://www.raywenderlich.com/5823-how-to-create-a-cocoapod-in-swift
 public class DiscoveryFabButtonView : UIView {
     
     private static let SIZE: CGFloat = 60
@@ -464,7 +463,7 @@ fileprivate extension UIView {
     
     // This is the meat of the sauce, here we create the tap gesture recognizer and
     // store the closure the user passed to us in the associated object we declared above
-    public func addTapGestureRecognizer(action: (() -> Void)?) {
+    func addTapGestureRecognizer(action: (() -> Void)?) {
         self.isUserInteractionEnabled = true
         self.tapGestureRecognizerAction = action
         let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(handleTapGesture))
