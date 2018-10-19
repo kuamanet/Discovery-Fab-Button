@@ -437,7 +437,7 @@ fileprivate extension DiscoveryFabButtonView {
     }
 }
 
-extension UIView {
+fileprivate extension UIView {
     
     // In order to create computed properties for extensions, we need a key to
     // store and access the stored property
